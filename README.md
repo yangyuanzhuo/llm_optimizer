@@ -12,7 +12,10 @@ analyze_plan()：分析执行计划
 export OPENAI_API_KEY=你的key
 export OPENAI_MODEL=gpt-4o(可更换为其他模型)
 python3 python/llm_service.py
-make/make install即可。
+make/make install
+
+CREATE EXTENSION llm_optimizer;
+SET llm_optimizer.api_url = 'http://127.0.0.1:5000/analyze';
 
 示例：
 SELECT optimize_query(
