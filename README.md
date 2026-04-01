@@ -1,4 +1,4 @@
-# pgllm-integration
+# llm_optimizer
 此为基于GPT服务的pg插件，通过llm，可在pg内部通过调用函数的方式提供优化建议，如sql重写，索引创建建议，分析执行计划等。
 内置五个函数：
 optimize_query()：规则驱动 SQL 重写
