@@ -1,0 +1,4 @@
+comment = 'LLM-assisted SQL rewrite, index recommendation, and plan analysis'
+default_version = '1.0'
+module_pathname = '$libdir/llm_optimizer'
+relocatable = true
